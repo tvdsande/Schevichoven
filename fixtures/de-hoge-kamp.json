@@ -7,7 +7,13 @@
     "rechtsvorm": null,
     "melkkoeien": 58,
     "jongvee": 38,
-    "hectare": { "totaal": 42, "eigendom": 32, "pacht": 10, "grasland": 34, "snijmais": 8 },
+    "hectare": {
+      "totaal": 42,
+      "eigendom": 32,
+      "pacht": 10,
+      "grasland": 34,
+      "snijmais": 8
+    },
     "geleverde_melk_kg": 520000,
     "melkprijs_eur_per_kg": 0.485
   },
@@ -55,14 +61,24 @@
       "resultaat": 28900,
       "solvabiliteit_pct": 46.2,
       "melkprijs_eur_per_kg": 0.465,
-      "opmerking": "Overige posten, balans en opgaven zijn niet aangeleverd; afgeleide kengetallen blijven leeg met vermelding van de reden."
+      "opmerking": "Overige posten, balans en opgaven zijn niet aangeleverd; afgeleide kengetallen blijven leeg met vermelding van de reden.",
+      "geleverde_melk_kg": 500000,
+      "melkkoeien": 56,
+      "jongvee": 36,
+      "hectare_totaal": 42,
+      "opmerking_operationeel": "Fictieve opgave van de boer, toegevoegd voor de trend op blad 1; niet afgeleid uit de oorspronkelijke figuren."
     },
     "2023": {
       "omzet_totaal": 338000,
       "resultaat": 78400,
       "solvabiliteit_pct": 45.1,
       "melkprijs_eur_per_kg": 0.545,
-      "opmerking": "Overige posten, balans en opgaven zijn niet aangeleverd; afgeleide kengetallen blijven leeg met vermelding van de reden."
+      "opmerking": "Overige posten, balans en opgaven zijn niet aangeleverd; afgeleide kengetallen blijven leeg met vermelding van de reden.",
+      "geleverde_melk_kg": 480000,
+      "melkkoeien": 54,
+      "jongvee": 34,
+      "hectare_totaal": 42,
+      "opmerking_operationeel": "Fictieve opgave van de boer, toegevoegd voor de trend op blad 1; niet afgeleid uit de oorspronkelijke figuren."
     }
   },
   "herkomst": {
@@ -82,8 +98,23 @@
     "saldo_pct_van_omzet": 67.3,
     "solvabiliteit_pct": 47.7,
     "aflossingscapaciteit": 1.43,
-    "per_100_kg": { "melkopbrengst": 48.50, "toegerekende_kosten": 19.60, "voersaldo": 34.85, "bewerkingskosten": 9.33 },
+    "per_100_kg": {
+      "melkopbrengst": 48.5,
+      "toegerekende_kosten": 19.6,
+      "voersaldo": 34.85,
+      "bewerkingskosten": 9.33
+    },
     "kritieke_melkprijs_eur_per_kg": 0.508,
-    "tekort_per_jaar": 11800
+    "tekort_per_jaar": 11800,
+    "trend_2023_tot_2025": {
+      "geleverde_melk_pct": 8.3,
+      "melkkoeien_pct": 7.4,
+      "jongvee_pct": 11.8,
+      "melk_per_koe_pct": 0.9,
+      "melk_per_hectare_pct": 8.3,
+      "omzet_pct": -7.7,
+      "resultaat_pct": -41.1,
+      "melkprijs_pct": -11.0
+    }
   }
 }
