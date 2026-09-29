@@ -1,0 +1,89 @@
+{
+  "label": "Voorbeeldbedrijf; de cijfers zijn fictief.",
+  "bedrijf": {
+    "naam": "Melkveebedrijf De Hoge Kamp",
+    "tak": "melkvee",
+    "boekjaar": 2025,
+    "rechtsvorm": null,
+    "melkkoeien": 58,
+    "jongvee": 38,
+    "hectare": { "totaal": 42, "eigendom": 32, "pacht": 10, "grasland": 34, "snijmais": 8 },
+    "geleverde_melk_kg": 520000,
+    "melkprijs_eur_per_kg": 0.485
+  },
+  "boekjaren": {
+    "2025": {
+      "opbrengsten": {
+        "omzet_melk": 252200,
+        "omzet_en_aanwas_vee": 31000,
+        "glb_betalingen": 22800,
+        "overige_opbrengsten": 6000,
+        "omzet_totaal": 312000
+      },
+      "toegerekende_kosten": {
+        "voer": 71000,
+        "veekosten": 18500,
+        "gewaskosten": 12400,
+        "totaal": 101900
+      },
+      "saldo": 210100,
+      "bedrijfskosten": {
+        "loonwerk": 28000,
+        "werktuigen": 14500,
+        "grond_en_gebouwen": 21000,
+        "energie_en_water": 11200,
+        "algemeen": 9800,
+        "betaalde_arbeid": 6000,
+        "totaal": 90500
+      },
+      "resultaat_voor_rente_en_afschrijving": 119600,
+      "afschrijving": 52000,
+      "rente": 21400,
+      "resultaat": 46200,
+      "balans": {
+        "balanstotaal": 2140000,
+        "eigen_vermogen": 1020000,
+        "langlopende_schulden": 1060000
+      },
+      "opgave_boer": {
+        "aflossing_komend_jaar": 62000,
+        "prive_onttrekkingen": 48000
+      }
+    },
+    "2024": {
+      "omzet_totaal": 295000,
+      "resultaat": 28900,
+      "solvabiliteit_pct": 46.2,
+      "melkprijs_eur_per_kg": 0.465,
+      "opmerking": "Overige posten, balans en opgaven zijn niet aangeleverd; afgeleide kengetallen blijven leeg met vermelding van de reden."
+    },
+    "2023": {
+      "omzet_totaal": 338000,
+      "resultaat": 78400,
+      "solvabiliteit_pct": 45.1,
+      "melkprijs_eur_per_kg": 0.545,
+      "opmerking": "Overige posten, balans en opgaven zijn niet aangeleverd; afgeleide kengetallen blijven leeg met vermelding van de reden."
+    }
+  },
+  "herkomst": {
+    "omzet_melk": "Winst-en-verliesrekening 2025, regel Netto-omzet melk (fictief)",
+    "omzet_en_aanwas_vee": "Winst-en-verliesrekening 2025, regel Omzet en aanwas vee (fictief)",
+    "glb_betalingen": "Winst-en-verliesrekening 2025, regel GLB-betalingen (fictief)",
+    "overige_opbrengsten": "Winst-en-verliesrekening 2025, regel Overige opbrengsten (fictief)",
+    "toegerekende_kosten": "Winst-en-verliesrekening 2025, kosten voer, vee en gewas (fictief)",
+    "bedrijfskosten": "Winst-en-verliesrekening 2025, overige bedrijfskosten (fictief)",
+    "afschrijving": "Winst-en-verliesrekening 2025, regel Afschrijvingen (fictief)",
+    "rente": "Winst-en-verliesrekening 2025, regel Rentelasten (fictief)",
+    "balans": "Balans per 31 december 2025 (fictief)",
+    "opgave_boer": "opgave van de boer",
+    "operationeel": "opgave van de boer"
+  },
+  "verwacht": {
+    "saldo_pct_van_omzet": 67.3,
+    "solvabiliteit_pct": 47.7,
+    "aflossingscapaciteit": 1.43,
+    "per_100_kg": { "melkopbrengst": 48.50, "toegerekende_kosten": 19.60, "voersaldo": 34.85, "bewerkingskosten": 9.33 },
+    "kritieke_melkprijs_eur_per_kg": 0.508,
+    "tekort_per_jaar": 11800
+  }
+}

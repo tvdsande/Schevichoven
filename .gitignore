@@ -1,0 +1,10 @@
+node_modules/
+dist/
+coverage/
+.env
+.env.*
+*.xaf
+*.log
+.DS_Store
+# Echte stukken horen niet in de repository
+/echte-data/
