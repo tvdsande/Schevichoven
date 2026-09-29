@@ -31,9 +31,16 @@ Eerst rekenkern en controles, dan rapport, dan extractie, dan pilotomgeving, dan
 
 Het rapport en de voetregels bevatten, in het Nederlands: dat de posten met hulp van een taalmodel zijn gerubriceerd en dat de berekening met vaste regels (versie x.y) is uitgevoerd; dat de aangeleverde jaarrekening als uitgangspunt is genomen zonder dat de juistheid is vastgesteld en dat dit geen samenstellings-, beoordelings- of controleopdracht is; dat het rapport niet bestemd is voor de beoordeling van kredietwaardigheid; en dat identificerende gegevens vóór het uitlezen zijn verwijderd en cijfers alleen geaggregeerd en geanonimiseerd in het referentiebestand komen, na aparte toestemming.
 
-## Vormgeving van het rapport
+## Vormgeving van het rapport (huisstijl Schevichoven Groeit)
 
-Geen app-schermen: pagina's op perkament, A4-verhoudingen, ruime marges, lopende kop met bedrijfsnaam en boekjaar, paginanummer, voet met versie van de rekenregels. Lettertypen EB Garamond (lopende tekst) en Libre Baskerville (koppen en cijfers). Kleuren: pagina #F5F0E8, papier #FDFAF4, rand #D8D2C4, gedempte inkt #9A9E7E, lopende inkt #2D3A1E, tabelinkt #4A5530, groen kop #2D4A2D, groen accent #4A7A4A, waarschuwing #FBF0DC / #C4861A, negatief #8B3A2A. Grafiekkleuren: #417F2C, #C08312, #2A6E9E, #9E3A20. Tabelkoppen als gedempte hoofdletters, cijfers rechts uitgelijnd met `font-variant-numeric: tabular-nums`. Grafieken klein, inline SVG, zonder animatie.
+Bron: PowerPoint-template, Word-template en kleurenschema van Schevichoven Groeit (Mooijman en Mittelbe). Het rapport wordt onder de huisstijl van Schevichoven Groeit uitgebracht.
+
+- Lettertype: uitsluitend Trebuchet MS (koppen vet, lopende tekst regular), met terugval op Lucida Grande, Verdana en sans-serif. Geen serif en geen webfonts.
+- Kleuren (uit de templates): Egg shell white #FAF7EF (papier), Farwin green #7FA57E (accent), Regenerative green #384A3C (koppen, tekst en primaire grafiekkleur), Flat copper #CA7A55 (aandacht en aftrekposten). Afgeleide tinten: koper-tint #EED8CB, grijs vlak #E8E5DF; haarlijnen en gedempte tekst zijn Regenerative green met verminderde dekking. Het kleurenschema-pdf noemt iets afwijkende hexwaarden (#faf8ef, #7fa57f, #384a3d, #c97a54); de templates zijn leidend.
+- Farwin green haalt als tekst of dunne lijn geen voldoende contrast op egg shell; gebruik het voor vlakken, lijnen en accenten en zet tekst in Regenerative green.
+- Beeldmerk: `assets/huisstijl/` (groene versie op licht, witte versie op foto of donker). Rechtsboven op elk blad, zoals in de slide-layouts. Voorblad met luchtfoto, donkergroene overlay, wit beeldmerk linksboven en titel linksonder, zoals de coverslide.
+- Opmaak: A4-verhoudingen, ruime marges, lopende kop met bedrijfsnaam en boekjaar, paginanummer, voet met versie van de rekenregels. Geen app-schermen. Tabelkoppen als vette hoofdletters in gedempte tekst, cijfers rechts uitgelijnd met `font-variant-numeric: tabular-nums`.
+- Grafieken: klein, inline SVG, zonder animatie, categorieen in de vaste volgorde Regenerative green, Farwin green, koper-tint met koperen rand, Flat copper. Farwin green en Flat copper zijn voor kleurenblinden moeilijk te scheiden (de palettoets geeft een fout): zet ze nooit naast elkaar, houd 2 px tussenruimte en toon altijd een legenda met waarden.
 
 ## Werkwijze
 
